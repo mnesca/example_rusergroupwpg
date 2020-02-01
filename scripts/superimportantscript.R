@@ -4,8 +4,16 @@ y <- 3
 
 z = x + y
 
+a = x*y
 
-# 2020-Feb-01
+
+# Wing's R Script Changes
+library(magrittr)
+Sys.time() %>% print()
+
 
 a = x*y
 
+new_variable = z - x
+
+# 2020-Feb-01 (Lenny's edition)
